@@ -6,10 +6,10 @@ body{
 #navbar{
     background-color: rgb(53, 72, 84);
     display: flex;
-    gap: 3%;
+    /* gap: 3%; */
     color: antiquewhite;
-    margin-left: 5%;
-    margin-right: 6.15%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .powerful{
@@ -18,6 +18,14 @@ body{
 
 .navbarimage{
     margin-left: 9%;
+}
+
+.imageAtNavbar{
+    width: 86%;
+}
+
+.Subscription{
+    width:30%
 }
 
 button{
@@ -36,9 +44,8 @@ button{
 #Introduction{
     display: flex; 
     background-color: rgb(13, 62, 62);
-    width: 1630px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .buttonsignup{
@@ -57,8 +64,8 @@ button{
 #body{
     display: flex;
     gap: 9%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
     border: white;
     font-size: 22px;
 }
@@ -70,8 +77,8 @@ button{
 #marketing{
     background-color: white;
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
     font-size: 22px;
 }
 
@@ -83,8 +90,8 @@ h2{
     text-align: center;
     font-size: 45px;
     background-color: white;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #mark{
@@ -119,8 +126,8 @@ h2{
     text-align: center;
     font-size: 20px;
     background-color: #cbf3e5;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .exploreButton{
@@ -136,14 +143,14 @@ h2{
 
 #lastborder{
     background-color: white;
-    margin-left: 5%;
-margin-right: 5%;
+    margin-left: 15%;
+margin-right: 15%;
 }
 
 #Highlights{
 background-color: white;
-margin-left: 5%;
-margin-right: 5%;
+margin-left: 15%;
+margin-right: 15%;
 font-size: 40px;
 }
 
@@ -156,8 +163,8 @@ font-size: 40px;
     display: flex;
     height: 250px;
     gap: 12%;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: white;
 }
 
@@ -222,192 +229,10 @@ gap: 13%;
     margin-left: 20%;
 }
 
-@media screen and (max-width: 400px) {
-body{
-    border: blue;
-   
-}
-
-#navbar{
-    background-color: rgb(53, 72, 84);
-    display: flex;
-  flex-wrap: wrap;
-    color: antiquewhite;
-   
-}
-
-.powerful{
-    color: rgb(212, 172, 71);
-}
-
-.navbarimage{
-   
-}
-
-button{
-    background-color: rgb(93, 50, 235);
-    color: antiquewhite;
-
-}
-
-#introduction{
-    color: antiquewhite;
-
-}
-
-#Introduction{
-    display: flex; 
-    background-color: rgb(13, 62, 62);
-    flex-wrap: wrap;
-}
-
-.buttonsignup{
-  background-color: cornflowerblue;
-}
-
-.buttonlogin{
-  background-color: rgb(13, 62, 62);
-  border: solid;
-}
-
-#body{
-    display: flex;
-    flex-wrap: wrap;
-    border: white;
-}
-
-.advantage{
-    color: #d0a46f ;
-}
-
-#marketing{
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.privacy{
- 
-}
-
-h2{
-    text-align: center;
-    background-color: white;
-}
-
-#mark{
- 
-}
-
-#points{
-    display: flex;
-   flex-wrap: wrap;
-}
-.points{
-
-}
-
-.analytics{
-    color: #d0a46f ;
-}
-
-.buttonStart{
-    background-color: rgb(93, 50, 235);
-    color: antiquewhite;
-
-}
-
-#intergraton{
-    text-align: center;
-    background-color: #cbf3e5;
-}
-
-.exploreButton{
-    background-color: #f1ac57;
-
-}
-
-.intergratonword{
-    color: #dba360 ;
-}
-
-#lastborder{
-    background-color: white;
-}
-
-#Highlights{
-background-color: white;
-
-}
-
-.highlightword{
-    color: #dba360 ; 
-   
-}
-
-#blog-images{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-}
-
-#blogwords{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#stages{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.search{
-    display: flex;
-    margin-left: 9%;
-    gap: 26%;
-    font-size: 25px;
-}
-
-#footerbutton{
-display:flex ;
-flex-wrap: wrap;
-}
-.footerbutton{
-    color: aqua;
-    background-color: white;
-}
-
-.team{
-    color: #f5fe6a;
-}
-
-#advertise{
-    background-color:rgb(29, 58, 75);
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
-}
-.lady{
-
-}
-
-#bluefooter{
-    display: flex;
-
-}
-
-#finalpart{
-    display: flex;
-
-}
-.footerlogo{
-
-}
-
-}
 
 
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width:1100px) {
     body{
         border: blue;
        
@@ -416,7 +241,7 @@ flex-wrap: wrap;
     #navbar{
         background-color: rgb(53, 72, 84);
         display: flex;
-      flex-wrap: wrap;
+        flex-wrap: wrap;
         color: antiquewhite;
        
     }
@@ -427,6 +252,14 @@ flex-wrap: wrap;
     
     .navbarimage{
        
+    }
+
+    .imageAtNavbar{
+      
+    }
+
+    .subscription{
+
     }
     
     button{
@@ -591,188 +424,4 @@ flex-wrap: wrap;
     
     }
 
-
-@media screen and (max-width: 1050px) {
-    body{
-        border: blue;
-       
-    }
-    
-    #navbar{
-        background-color: rgb(53, 72, 84);
-        display: flex;
-      flex-wrap: wrap;
-        color: antiquewhite;
-       
-    }
-    
-    .powerful{
-        color: rgb(212, 172, 71);
-    }
-    
-    .navbarimage{
-       
-    }
-    
-    button{
-        background-color: rgb(93, 50, 235);
-        color: antiquewhite;
-    
-    }
-    
-    #introduction{
-        color: antiquewhite;
-    
-    }
-    
-    #Introduction{
-        display: flex; 
-        background-color: rgb(13, 62, 62);
-        flex-wrap: wrap;
-    }
-    
-    .buttonsignup{
-      background-color: cornflowerblue;
-    }
-    
-    .buttonlogin{
-      background-color: rgb(13, 62, 62);
-      border: solid;
-    }
-    
-    #body{
-        display: flex;
-        flex-wrap: wrap;
-        border: white;
-    }
-    
-    .advantage{
-        color: #d0a46f ;
-    }
-    
-    #marketing{
-        background-color: white;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .privacy{
-     
-    }
-    
-    h2{
-        text-align: center;
-        background-color: white;
-    }
-    
-    #mark{
-     
-    }
-    
-    #points{
-        display: flex;
-       flex-wrap: wrap;
-    }
-    .points{
-    
-    }
-    
-    .analytics{
-        color: #d0a46f ;
-    }
-    
-    .buttonStart{
-        background-color: rgb(93, 50, 235);
-        color: antiquewhite;
-    
-    }
-    
-    #intergraton{
-        text-align: center;
-        background-color: #cbf3e5;
-    }
-    
-    .exploreButton{
-        background-color: #f1ac57;
-    
-    }
-    
-    .intergratonword{
-        color: #dba360 ;
-    }
-    
-    #lastborder{
-        background-color: white;
-    }
-    
-    #Highlights{
-    background-color: white;
-    
-    }
-    
-    .highlightword{
-        color: #dba360 ; 
-       
-    }
-    
-    #blog-images{
-        display: flex;
-        flex-wrap: wrap;
-        background-color: white;
-    }
-    
-    #blogwords{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    #stages{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .search{
-        display: flex;
-        margin-left: 9%;
-        gap: 26%;
-        font-size: 25px;
-    }
-    
-    #footerbutton{
-    display:flex ;
-    flex-wrap: wrap;
-    }
-    .footerbutton{
-        color: aqua;
-        background-color: white;
-    }
-    
-    .team{
-        color: #f5fe6a;
-    }
-    
-    #advertise{
-        background-color:rgb(29, 58, 75);
-        display: flex;
-        flex-wrap: wrap;
-        color: white;
-    }
-    .lady{
-    
-    }
-    
-    #bluefooter{
-        display: flex;
-    
-    }
-    
-    #finalpart{
-        display: flex;
-    
-    }
-    .footerlogo{
-    
-    }
-    
-    }
 
